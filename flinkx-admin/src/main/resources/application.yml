@@ -4,8 +4,8 @@ server:
 spring:
   #数据源
   datasource:
-    username: root
-    password: camtg
+    username: flinkx_web
+    password: flinkx_web
     url: jdbc:mysql://192.168.0.21:3306/flinkx_web?serverTimezone=Asia/Shanghai&useLegacyDatetimeCode=false&useSSL=false&nullNamePatternMatchesAll=true&useUnicode=true&characterEncoding=UTF-8
 #    password: ${DB_PASSWORD:password}
 #    username: ${DB_USERNAME:username}
