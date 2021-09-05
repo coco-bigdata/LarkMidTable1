@@ -84,7 +84,7 @@ mybatis-plus:
 # 配置mybatis-plus打印sql日志
 logging:
   level:
-    com.guoliang.flinkx.admin.mapper: info
+    com.guoliang.flinkx.admin.mapper: debug
     path: /home/camtg/data/flinkx-web-2.1.2/packages/flinkx-admin
 
 
