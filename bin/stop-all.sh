@@ -1,9 +1,9 @@
 #!/bin/bash
 
-pid=$(ps -ef | grep "Engine" | grep -v grep | awk '{print $2}')
+pid=$(ps -ef | grep "flinkx-admin" | grep -v grep | awk '{print $2}')
 kill -15 $pid
-echo "Engine的进程已经停止!!!!"
+echo "flinkx-admin的进程已经停止!!!!"
 
-pid=$(ps -ef | grep "FlinkXExecutorApplication" | grep -v grep | awk '{print $2}')
+pid=$(ps -ef | grep "flinkx-executor" | grep -v grep | awk '{print $2}')
 kill -15 $pid
-echo "FlinkXExecutorApplication的进程已经停止!!!!"
+echo "flinkx-executor的进程已经停止!!!!"
