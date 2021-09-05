@@ -85,7 +85,7 @@ mybatis-plus:
 logging:
   level:
     com.guoliang.flinkx.admin.mapper: info
-    path: /home/hadoop/data/flinkx-web-2.1.2/packages/flinkx-admin
+    path: /home/camtg/data/flinkx-web-2.1.2/packages/flinkx-admin
 
 
 
