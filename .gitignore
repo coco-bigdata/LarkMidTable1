@@ -1,4 +1,3 @@
-
 .idea/*
 */*.iml
 *.iml
@@ -8,5 +7,29 @@ data/*
 */*/test/*.java
 build/*/*
 packages/*/*
-flinkx-admin/src/main/resources/*.yml
-*.yml
+.DS_Store
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+**/*.log
+
+*.class
+
+tests/**/coverage/
+tests/e2e/reports
+selenium-debug.log
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.local
+
+package-lock.json
+yarn.lock
+*.jar
